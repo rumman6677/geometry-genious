@@ -1,0 +1,7 @@
+function calculatorRhombusArea(){
+    const majorRhombus = getInputValueId('rhombus-major');
+    const minorRhombus = getInputValueId('rhombus-minor');
+    const area = 3.14 * majorRhombus * minorRhombus;
+    setInnerTextById('rhombus-area', area);
+
+}
